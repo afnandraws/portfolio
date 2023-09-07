@@ -1,0 +1,30 @@
+.hero {
+    height: max-content;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+}
+
+.intro {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro > h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    width: 900px;
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+}

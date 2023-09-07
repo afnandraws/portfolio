@@ -1,0 +1,60 @@
+.header {
+    background: #F2F0E3;
+
+    font-size: 2.5rem;
+    
+    color: black;
+
+
+    position: sticky;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    top: 0; 
+    width: 100;
+    height: 50px;
+
+    padding: 30px;
+    background: linear-gradient(to bottom, #F2F0E3, rgba(0,0,0,0))
+}
+
+.buttongroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px black solid;
+    border-radius: 5px;
+
+    background: #AE7AFF;
+    width: max-content;
+    height: 60px;
+    font-size: large;
+
+}
+
+.buttongroup button {
+    all: unset;
+    padding: 18px;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 500;
+    color: #F2F0E3;
+    font-size: large;
+}
+
+.buttongroup :first-child {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.buttongroup :last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+.buttongroup button:hover {
+    background-color: #E4D3FF;
+    color: #AE7AFF;
+}

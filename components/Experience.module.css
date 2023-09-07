@@ -1,0 +1,98 @@
+.experience {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    margin: 30px;
+}
+
+
+.content {
+    width: 1000px;
+    display: flex;
+
+
+}
+
+.topbar {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: larger;
+}
+
+
+.list {
+    text-align: right;
+    min-width: max-content;
+    height: max-content;
+
+
+    border-right: 2px black solid;
+    border: 2px black solid;
+    border-radius: 5px; 
+}
+
+.list div { 
+    padding: 15px;
+    
+    border-bottom: 2px black solid; 
+}
+
+.list :hover {
+    background-color: #6efcc14a;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #6efcc1;
+}
+
+
+.list :last-child {
+    border-bottom: none; 
+}
+
+.description {
+    border: 2px black solid;
+    border-radius: 5px;
+
+    padding: 30px;
+    margin-left: 30px;
+    width: 100%;
+
+    font-family: "mencken-std-head", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #1a1a1a;
+}
+
+.description span,
+.description p {
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.description h2,
+.description h3 {
+    padding-top: 10px;
+    margin: 0;
+}
+
