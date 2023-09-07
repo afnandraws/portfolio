@@ -1,53 +1,34 @@
 .footer {
-    font-size: large;
-    color: black;
-
     position: sticky;
     
     display: flex;
     justify-content:center;
     align-items: center;
     
-    top: 0;
     bottom: 0; 
-    width: 100;
-    height: 10px;
+
+    height: 5px;
 
     padding: 30px;
     background: linear-gradient(to bottom, rgba(0,0,0,0), #F2F0E3)
 
 }
 
-.footer div {
-    border: 4px black solid;
+.footer div { 
     position: absolute;
-
     bottom: 50%;
-    background: #AE7AFF;
-    height: 60px;
-
+    background-color: #AE7AFF;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
     border: 2px black solid;
     border-radius: 5px;
-
-    background: #AE7AFF;
-    width: max-content;
+    
+    font-size: large;
+    min-width: max-content;
     height: max-content;
-    font-size: large;
-}
-
-.footer div button {
-    all: unset;
-    padding: 17.5px;
-
-    font-family: "ibm-plex-mono", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #F2F0E3;
-    font-size: large;
 }
 
 .footer div :first-child {
@@ -58,7 +39,32 @@
     border-radius: 0px 4px 4px 0px;
 }
 
-.footer div button:hover {
-    background-color: #E4D3FF;
-    color: #AE7AFF;
+.unselected {
+    all: unset;
+    padding: 18px;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2F0E3;
+    font-size: large;
+
+    transition: 0.4s;
+}
+
+.unselected:hover {
+    background-color: #722edf;
+}
+
+
+.selected {
+    all: unset;
+    padding: 18px;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: #F2F0E3;
+    background-color: #722edf;
 }

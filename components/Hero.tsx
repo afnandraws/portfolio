@@ -10,8 +10,8 @@ const Hero = () => {
 				<h1>Afnan Khan</h1>
 				<p>
 					Afnan is a London-based self taught developer with experience in Web
-					design, backend frameworks and UI design. <br /> I enjoy playing
-					games, watching crime documentaries and drawing
+					design, backend frameworks and UI design. I enjoy playing games,
+					watching crime documentaries and drawing
 				</p>
 			</div>
 		</div>

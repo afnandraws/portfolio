@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
 	{
 		name: "Interesting App",
 		tags: [
@@ -12,8 +12,8 @@ const projects = [
 		description: `This is a full stack application which presents random interesting
     facts to the users. Users are able to log in and save posts so that
     they can see them in a glance in a "Saved Posts" page.`,
-		websitelink: "",
-		sourcecode: "",
+		websitelink: "https://www.google.com",
+		sourcecode: "https://www.google.com",
 	},
 	{
 		name: "Todo List App",
