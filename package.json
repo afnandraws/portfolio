@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "output": "export && mv out _static"
+    "output": "export"
   },
   "dependencies": {
     "@types/node": "20.5.9",
