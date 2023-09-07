@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "output": "export"
+    "output": "next export && nex"
   },
   "dependencies": {
     "@types/node": "20.5.9",
