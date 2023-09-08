@@ -42,7 +42,7 @@
 
 .unselected {
     all: unset;
-    padding: 18px;
+    padding: 1rem;
 
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 400;
@@ -50,17 +50,18 @@
     color: #F2F0E3;
     font-size: large;
 
-    transition: 0.4s;
 }
 
 .unselected:hover {
     background-color: #722edf;
+    transition: 0.4s;
+
 }
 
 
 .selected {
     all: unset;
-    padding: 18px;
+    padding: 1rem;
 
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 400;
@@ -76,6 +77,7 @@
 @media (max-width: 768px) {
 
     .footer {
+        width: 100vw; 
         position: sticky;
         bottom: 0; 
         left: initial;

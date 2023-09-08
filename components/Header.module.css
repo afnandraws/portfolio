@@ -36,7 +36,7 @@
 
 .buttongroup button {
     all: unset;
-    padding: 18px;
+    padding: 1rem;
 
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 500;
@@ -66,10 +66,16 @@
 @media (max-width: 768px) {
 
     .header {
-      position: sticky; 
-      top: 0;
-      right: 0;
-      justify-content: flex-end;
+        width: 100vw; 
+        box-sizing: border-box;
+        position: sticky; 
+        top: 0;
+        right: 0;
+        justify-content: flex-end;
     }
     
+    .buttongroup {
+        position: relative;
+        top: 20px;
+    }
   }
