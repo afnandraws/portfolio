@@ -1,15 +1,12 @@
 .main {
-
-}
-
-.body {
-  width: 100%;
-  min-height: 100dvh;
-  height: max-content;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: nowrap;
-  justify-content: center;
+  user-select: text;
+}
+
+.body {
+  max-width: 100%;
+  min-height: 100dvh;
+  height: max-content;
 }
