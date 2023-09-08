@@ -20,6 +20,7 @@
 }
 
 .buttongroup {
+ 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,10 +32,10 @@
     width: max-content;
     height: 60px;
     font-size: large;
-
 }
 
 .buttongroup button {
+   
     all: unset;
     padding: 1rem;
 
