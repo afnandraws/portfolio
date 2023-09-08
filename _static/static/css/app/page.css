@@ -32,6 +32,36 @@
     font-weight: 400;
 }
 
+
+/* MOBILE STYLES */
+
+@media (max-width: 768px) {
+    .Hero_hero__bqvNd {
+        max-width: 100%;
+    }
+
+    .Hero_intro__6WcBS {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Hero_intro__6WcBS > h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+    
+    .Hero_intro__6WcBS p {
+        font-size: 1.2rem;
+        width: 600px;
+        font-family: "ibm-plex-mono", sans-serif;
+        font-weight: 400;
+    }
+
+}
+
 /*!************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/Projects.module.css ***!
   \************************************************************************************************************************************************************************************************************************************************************************/
@@ -151,6 +181,42 @@
     cursor: pointer;
 
 }
+
+/* MOBILE STYLES */
+
+@media (max-width: 768px) {
+    .Projects_parent__o9yXn {
+        max-width: 39rem;
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Projects_board__pcOgX {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .Projects_project__srcGa {
+        height: max-content;
+        padding: 20px;
+    }
+    
+    .Projects_project__srcGa h1 {
+    margin-top: 0;
+    }
+    
+    .Projects_project__srcGa > :last-child {
+    margin-top: 0;
+    }
+
+    .Projects_tags__pE1IM {
+        margin-bottom: 20px;
+    }
+}
+
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/Experience.module.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************************/
@@ -171,8 +237,6 @@
 .Experience_content__pmlM4 {
     width: 1000px;
     display: flex;
-
-
 }
 
 .Experience_topbar__Pg3Mg {
@@ -201,7 +265,6 @@
 
 .Experience_list__D3rHA div { 
     padding: 15px;
-    
     border-bottom: 2px black solid; 
 }
 
@@ -266,5 +329,6 @@
 }
 
 .page_body__pK_rb {
+  min-height: 100dvh;
   height: max-content;
 }

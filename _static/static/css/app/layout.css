@@ -17,29 +17,27 @@ body {
           user-select:auto;
   background: #F2F0E3;
 }
+
 /*!**********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/Footer.module.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************/
 .Footer_footer__pQtti {
     position: -webkit-sticky;
     position: sticky;
+    bottom: 0; 
     
     display: flex;
     justify-content:center;
     align-items: center;
-    
-    bottom: 0; 
-
-    height: 5px;
 
     padding: 30px;
+    height: 50px;
+
     background: linear-gradient(to bottom, rgba(0,0,0,0), #F2F0E3)
 
 }
 
-.Footer_footer__pQtti div { 
-    position: absolute;
-    bottom: 50%;
+.Footer_footer__pQtti div {
     background-color: #AE7AFF;
     
     display: flex;
@@ -91,6 +89,81 @@ body {
     color: #F2F0E3;
     background-color: #722edf;
 }
+
+
+/* MOBILE STYLING */
+
+@media (max-width: 768px) {
+
+    .Footer_footer__pQtti {
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 0; 
+        left: initial;
+
+        justify-content:flex-start;
+        align-items:flex-start;
+        flex-direction: column-reverse;
+        gap: 1rem;
+
+    }
+    
+    .Footer_footer__pQtti div {
+        border: none;
+        flex-direction: column;
+    }
+    
+    .Footer_footer__pQtti div.Footer_open__zA_UJ {
+        border: 2px black solid;
+        border-radius: 5px;
+        padding: 1rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        gap: 0;
+
+    }
+
+    .Footer_footer__pQtti div button {
+        display: none;
+    }
+
+    .Footer_footer__pQtti div.Footer_open__zA_UJ button {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+
+    }
+
+    .Footer_footer__pQtti div.Footer_open__zA_UJ :first-child {
+        border-radius: 4px 4px 0px 0px  ;
+    }
+    
+    .Footer_footer__pQtti div.Footer_open__zA_UJ :last-child {
+        border-radius: 0px 0px 4px 4px;
+    }
+  
+    .Footer_footer__pQtti .Footer_toggle__6E_bj { 
+        all: unset;
+        
+        text-align: center;
+        padding: 18px;
+  
+        font-family: "ibm-plex-mono", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #AE7AFF;
+        color: #F2F0E3;
+        font-size: large;
+    }
+
+    .Footer_footer__pQtti .Footer_toggle__6E_bj {
+        border: 2px black solid;
+        border-radius: 5px;
+    }
+    .Footer_toggle__6E_bj:hover {
+        background-color: #722edf;
+    }
+  }
 /*!**********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/Header.module.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************/
@@ -157,3 +230,21 @@ body {
     background-color: #722edf;
 }
 
+
+
+
+
+/* MOBILE STYLES */
+
+@media (max-width: 768px) {
+
+    .Header_header__KwdYD {
+      position: -webkit-sticky;
+      position: sticky; 
+      top: 0;
+      right: 0;
+      left: initial;
+      justify-content: flex-end;
+    }
+    
+  }

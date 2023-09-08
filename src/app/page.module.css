@@ -6,5 +6,6 @@
 }
 
 .body {
+  min-height: 100dvh;
   height: max-content;
 }

@@ -57,3 +57,21 @@
 .buttongroup button:hover {
     background-color: #722edf;
 }
+
+
+
+
+
+/* MOBILE STYLES */
+
+@media (max-width: 768px) {
+
+    .header {
+      position: sticky; 
+      top: 0;
+      right: 0;
+      left: initial;
+      justify-content: flex-end;
+    }
+    
+  }

@@ -15,8 +15,6 @@
 .content {
     width: 1000px;
     display: flex;
-
-
 }
 
 .topbar {
@@ -45,7 +43,6 @@
 
 .list div { 
     padding: 15px;
-    
     border-bottom: 2px black solid; 
 }
 
