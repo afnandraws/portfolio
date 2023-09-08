@@ -13,6 +13,10 @@
 
 }
 
+.toggle {
+    display: none;
+}
+
 .footer div {
     background-color: #AE7AFF;
     

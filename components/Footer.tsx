@@ -7,19 +7,6 @@ import { SelectionContext } from "@/context/selection.context";
 const Footer = () => {
 	const { state, dispatch } = useContext(SelectionContext);
 	const [isOpen, setIsOpen] = useState(false);
-	const [width, setWidth] = useState(window.innerWidth);
-
-	useEffect(() => {
-		const handleResize = () => {
-			setWidth(window.innerWidth);
-		};
-
-		window.addEventListener("resize", handleResize);
-
-		return () => {
-			window.removeEventListener("resize", handleResize);
-		};
-	}, []); // empty deps array to run once
 
 	function selectionHandler(event: React.MouseEvent<HTMLElement>) {
 		console.log(event.currentTarget.id);
@@ -32,11 +19,10 @@ const Footer = () => {
 
 	return (
 		<footer className={styles.footer}>
-			{width < 769 && (
-				<button className={styles.toggle} onClick={toggleOpen}>
-					{isOpen ? "Menu" : "Menu"}
-				</button>
-			)}
+			<button className={styles.toggle} onClick={toggleOpen}>
+				{isOpen ? "Menu" : "Menu"}
+			</button>
+
 			<div className={isOpen ? styles.open : ""}>
 				{" "}
 				<button
