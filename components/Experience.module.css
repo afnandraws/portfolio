@@ -1,6 +1,5 @@
 .experience {
     width: 1000px;
-    display: flex;
     display: block;
 
     
@@ -16,8 +15,8 @@
 
 .content {
     display: flex;
-    max-width: 80rem;
-    gap: 2rem;
+    max-width: 100%;
+    gap: 1rem;
 }
 
 .topbar {
@@ -38,9 +37,6 @@
 .list {
     text-align: right;
     min-width: max-content;
-    height: max-content;
-
-
     border-right: 2px black solid;
     border: 2px black solid;
     border-radius: 5px; 

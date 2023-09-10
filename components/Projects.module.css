@@ -1,5 +1,9 @@
 .parent {
-    width: max-content;
+    box-sizing: border-box;
+
+    width: 1200px;
+    max-width: calc(100dvw - 2rem);
+
 }
 
 .topbar {
@@ -15,8 +19,11 @@
 
 .board {
     display: grid;
-    grid-template-columns: 650px 650px;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    height: max-content;
+
+    
 }
 
 .board h1 {
@@ -32,8 +39,6 @@
     display: flex;
     flex-direction: column;
 
-    height: max-content;
-    height: 30rem;
     width: 2fr;
     
     padding: 2rem;
@@ -64,14 +69,18 @@
   
 
 .project h1 {
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+
     margin-top: 20px;
     color: #1a1a1a;
 }
 
 .project p {
+    
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 300;
-    font-size: large;
+    
+    font-size: clamp(0.8rem, 2vw, 1.1rem);
 
     width: 100%;
     word-spacing: 1px; /* Increase space between words */
@@ -96,6 +105,8 @@
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size: clamp(0.8rem, 2vw, 1.1rem);
+
 
     background-color: #6efcc14a;
 

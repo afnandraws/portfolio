@@ -37,20 +37,23 @@
 .buttongroup button {
    
     all: unset;
-    padding: 1rem;
 
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 500;
     color: #F2F0E3;
     font-size: large;
+
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .buttongroup :first-child {
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 4px 0px 0px 4px;
 }
 
 .buttongroup :last-child {
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 4px 4px 0px;
 }
 
 
