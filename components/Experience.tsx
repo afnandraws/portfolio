@@ -12,7 +12,7 @@ const Experience = () => {
 					<div className={styles.selected}>Content Guru</div>
 					<div>Sara's Freelancing</div>
 					<div>DNA Royal Holloway</div>
-					<div>Misc</div>
+					<div>Misc.</div>
 				</div>
 				<div className={styles.description}>
 					<div>
