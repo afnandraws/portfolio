@@ -1,5 +1,6 @@
 .parent {
     box-sizing: border-box;
+    margin: auto;
 
     width: 1200px;
     max-width: calc(100dvw - 2rem);
@@ -79,7 +80,6 @@
     
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 300;
-    
     font-size: clamp(0.8rem, 2vw, 1.1rem);
 
     width: 100%;
