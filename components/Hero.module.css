@@ -36,11 +36,11 @@
 @media (max-width: 768px) {
     .hero {
         padding-top: 2rem;
-        max-width: 100dvw;
+        max-width: calc(100dvw - 2rem);
     }
 
     .intro {
-        width: 500px;
+        max-width: 500px;
         display: flex;
         flex-direction: column;
         justify-content: center;
