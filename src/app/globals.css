@@ -12,3 +12,12 @@ body {
 
   max-width: 100%;
 }
+
+
+:root {
+  --largefontsize: clamp(2rem, 5vw, 3rem);
+  --medium2fontsize: clamp(1.5rem, 2vw, 2.5rem);
+  --mediumfontsize: clamp(1rem, 2vw, 1.2rem);
+  --smallfontsize: clamp(0.8rem, 2vw, 1.1rem);
+
+}

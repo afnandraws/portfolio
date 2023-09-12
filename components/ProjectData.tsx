@@ -27,9 +27,17 @@ export const projects = [
 		sourcecode: "",
 	},
 	{
-		name: "Todo List App",
+		name: "Chat App",
 		tags: ["React", "Websockets", "Node", "Next", "IndexedDB"],
 		description: `This is an application I created to allow friends to talk via a chat. Multiple people are able to join rooms together and after a disconnect, you are able to rejoin and it populates the chat with previous messages.`,
+		websitelink: "",
+		sourcecode: "",
+	},
+	{
+		name: "This Website!",
+		tags: ["React", "Next"],
+		description:
+			"This is a static site, coded in React, hosted on DigitalOcean. With this I wanted to focus on front end design and ensuring that the website had a responsive design.",
 		websitelink: "",
 		sourcecode: "",
 	},

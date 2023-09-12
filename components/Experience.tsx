@@ -1,7 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
+import { ReactNode, useState } from "react";
 import styles from "./Experience.module.css";
 
 const Experience = () => {
+	const [current, setCurrent] = useState("0");
+
+	const experience = ["Content Guru", "Graphic Design", "DNA Royal Holloway"];
+
+	function selectionHandler(event: React.MouseEvent<HTMLElement>) {
+		console.log(event.currentTarget.id);
+		setCurrent(event.currentTarget.id);
+	}
+
 	return (
 		<div className={styles.experience}>
 			<div className={styles.topbar}>
@@ -9,10 +19,17 @@ const Experience = () => {
 			</div>
 			<div className={styles.content}>
 				<div className={styles.list}>
-					<div className={styles.selected}>Content Guru</div>
-					<div>Sara's Freelancing</div>
-					<div>DNA Royal Holloway</div>
-					<div>Misc.</div>
+					{experience.map((job: string, index): ReactNode => {
+						return (
+							<div
+								onClick={selectionHandler}
+								id={`${index}`}
+								key={index}
+								className={current === `${index}` ? styles.selected : ""}>
+								{job}
+							</div>
+						);
+					})}
 				</div>
 				<div className={styles.description}>
 					<div>

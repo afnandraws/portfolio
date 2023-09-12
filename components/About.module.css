@@ -1,0 +1,23 @@
+.about {
+    display: block;
+
+    box-sizing: border-box;
+    margin: auto;
+
+    width: 1000px;
+    max-width: calc(100dvw - 2rem);
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin: 1rem;
+    
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--mediumfontsize);
+}

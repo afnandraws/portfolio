@@ -11,6 +11,7 @@
     background: linear-gradient(to bottom, rgba(0,0,0,0), #F2F0E3);
     transition: 0.3s;
 
+
 }
 
 .toggle {
@@ -27,7 +28,6 @@
     border: 2px black solid;
     border-radius: 5px;
     
-    font-size: large;
     min-width: max-content;
     height: max-content;
 
@@ -51,7 +51,7 @@
     font-weight: 400;
     font-style: normal;
     color: #F2F0E3;
-    font-size: large;
+    font-size: var(--smallfontsize);
 
 }
 
@@ -69,7 +69,8 @@
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: large;
+    font-size: var(--smallfontsize);
+ 
     color: #F2F0E3;
     background-color: #722edf;
 }
@@ -106,7 +107,7 @@
         gap: 0;
 
         position: absolute;
-        bottom: 7rem;
+        bottom: 6rem;
         left: 2rem;
 
     }
@@ -119,6 +120,8 @@
         display: block;
         width: 100%;
         padding: 1rem;
+        font-size: var(--smallfontsize);
+
 
     }
 
@@ -144,9 +147,11 @@
         font-family: "ibm-plex-mono", sans-serif;
         font-weight: 400;
         font-style: normal;
+        font-size: var(--smallfontsize);
+        
         background-color: #AE7AFF;
         color: #F2F0E3;
-        font-size: large;
+
     }
 
     .footer .toggle {

@@ -17,7 +17,6 @@ const Projects = () => {
 		<div className={styles.parent}>
 			<div className={styles.topbar}>
 				<span>Projects</span>
-				<span>Sort</span>
 			</div>
 			<div className={styles.board}>
 				{projects.map((project: Project): ReactNode => {

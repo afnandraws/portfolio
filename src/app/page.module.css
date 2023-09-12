@@ -8,4 +8,6 @@
 .body {
   min-height: 90dvh;
   height: max-content;
+  margin-bottom: 30px;
+
 }

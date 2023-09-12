@@ -1,7 +1,5 @@
 .header {
     background: #F2F0E3;
-
-    font-size: 2.5rem;
     
     color: black;
 
@@ -16,7 +14,8 @@
     height: 50px;
 
     padding: 2rem;
-    background: linear-gradient(to bottom, #F2F0E3, rgba(0,0,0,0))
+    background: linear-gradient(to bottom, #F2F0E3, rgba(0,0,0,0));
+
 }
 
 .buttongroup {
@@ -30,8 +29,7 @@
 
     background: #AE7AFF;
     width: max-content;
-    height: 60px;
-    font-size: large;
+
 }
 
 .buttongroup button {
@@ -41,12 +39,16 @@
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 500;
     color: #F2F0E3;
-    font-size: large;
+    font-size: var(--smallfontsize);
 
     height: 100%;
+    padding: 18px;
     padding-left: 1rem;
     padding-right: 1rem;
+    transition: 0.3s;
+
 }
+
 
 .buttongroup :first-child {
     border-radius: 4px 0px 0px 4px;
