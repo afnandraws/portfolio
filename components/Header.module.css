@@ -1,9 +1,5 @@
+
 .header {
-    background: #F2F0E3;
-    
-    color: black;
-
-
     position: sticky;
     
     display: flex;
@@ -14,7 +10,7 @@
     height: 50px;
 
     padding: 2rem;
-    background: linear-gradient(to bottom, #F2F0E3, rgba(0,0,0,0));
+    background: linear-gradient(to bottom, var(--backgroundcolour), rgba(0,0,0,0));
 
 }
 
@@ -24,7 +20,7 @@
     align-items: center;
     justify-content: center;
 
-    border: 2px black solid;
+    border: 2px var(--secondarytextcolour) solid;
     border-radius: 5px;
 
     background: #AE7AFF;
@@ -38,7 +34,7 @@
 
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 500;
-    color: #F2F0E3;
+    color: var(--textcolour);
     font-size: var(--smallfontsize);
 
     height: 100%;
@@ -46,9 +42,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
     transition: 0.3s;
-
 }
-
 
 .buttongroup :first-child {
     border-radius: 4px 0px 0px 4px;

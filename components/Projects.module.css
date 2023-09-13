@@ -46,7 +46,7 @@
     padding: 2rem;
 
     border-radius: 5px;
-    border: 2px solid black;
+    border: 2px solid var(--secondarytextcolour);
 
     text-align: left;
 
@@ -75,7 +75,8 @@
     font-size: var(--medium2fontsize);
 
     margin-top: 20px;
-    color: #1a1a1a;
+    color: var(--secondarytextcolour);
+    
 }
 
 .project p {
@@ -110,7 +111,7 @@
     font-size: var(--smallfontsize);
 
 
-    background-color: #6efcc14a;
+    background-color:  var(--secondarycolour);
 
     margin: 0;
 
@@ -118,8 +119,8 @@
     width: max-content;
 }
 
-.tags :hover {
-    background-color: #6efcc1;
+.tags h3:hover {
+    background-color: var(--secondaryactivecolour);
     cursor:default;
 
 }

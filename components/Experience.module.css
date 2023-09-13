@@ -53,24 +53,24 @@
     font-size: var(--smallfontsize);
 
     border-right: 2px black solid;
-    border: 2px black solid;
+    border: 2px var(--secondarytextcolour) solid;
     border-radius: 5px;
 }
 
 .list div {
     padding: 15px;
-    border-right: 2px black solid; 
+    border-right: 2px var(--secondarytextcolour) solid; 
 
     width: 100%;
 }
 
 .list :hover {
-    background-color: #6efcc14a;
+    background-color: var(--secondaryactivecolour);
     cursor: pointer;
 }
 
 .selected {
-    background-color: #6efcc1;
+    background-color: var(--secondarycolour);
     border-radius: 3px 0px 0px 3px;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .description {
-    border: 2px black solid;
+    border: 2px var(--secondarytextcolour) solid;
     border-radius: 5px;
 
     padding: 30px;
@@ -90,7 +90,7 @@
     font-family: "mencken-std-head", sans-serif;
     font-weight: 300;
     font-style: normal;
-    color: #1a1a1a;
+    color: var(--secondarytextcolour);
 }
 
 .description span,
@@ -98,6 +98,10 @@
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.description div :nth-child(2) {
+    text-align: right;
 }
 
 .description div {

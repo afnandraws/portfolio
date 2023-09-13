@@ -4,14 +4,12 @@ export const projects = [
 		tags: [
 			"React",
 			"Redux Toolkit",
+			"Express",
 			"Non-Relational Database",
 			"Next",
 			"Node",
-			"Express",
 		],
-		description: `This is a full stack application which presents random interesting
-    facts to the users. Users are able to log in and save posts so that
-    they can see them in a glance in a "Saved Posts" page.`,
+		description: `Users are presented with random facts fetched from the database, which they can save upon logging in. The login functionality allows users to securely store and access their favorite facts. MongoDB stores user data and a repository of facts. React/Next.js handles the frontend, delivering a seamless user experience with interactive fact display and retrieval. This engaging app offers users an enjoyable way to discover intriguing facts.`,
 		websitelink: "https://www.google.com",
 		sourcecode: "https://www.google.com",
 	},
@@ -35,7 +33,7 @@ export const projects = [
 	},
 	{
 		name: "This Website!",
-		tags: ["React", "Next"],
+		tags: ["React", "Next", "Typescript"],
 		description:
 			"This is a static site, coded in React, hosted on DigitalOcean. With this I wanted to focus on front end design and ensuring that the website had a responsive design.",
 		websitelink: "",

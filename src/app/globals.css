@@ -5,10 +5,10 @@ body {
   font-family: "mencken-std-head", sans-serif;
   font-weight: 300;
   font-style: normal;  margin: 0;
-  color: #1a1a1a;
+  color: var(--secondarytextcolour);
   
 
-  background: #F2F0E3;
+  background: var(--backgroundcolour);
 
   max-width: 100%;
 }
@@ -19,5 +19,41 @@ body {
   --medium2fontsize: clamp(1.5rem, 2vw, 2.5rem);
   --mediumfontsize: clamp(1rem, 2vw, 1.2rem);
   --smallfontsize: clamp(0.8rem, 2vw, 1.1rem);
+
+  --backgroundcolour: #F2F0E3;
+  
+  --primarycolour: #AE7AFF;
+  --primaryactivecolour: #722EDF;
+  
+  --secondarycolour: #6efcc14a;
+  --secondaryactivecolour: #6efcc1;
+  
+  --tertiarycolour: #F0618E;
+  
+  --textcolour: #F2F0E3;
+  --secondarytextcolour: #252525;
+
+}
+
+@media (prefers-color-scheme: dark) {
+:root {
+  --largefontsize: clamp(2rem, 5vw, 3rem);
+  --medium2fontsize: clamp(1.5rem, 2vw, 2.5rem);
+  --mediumfontsize: clamp(1rem, 2vw, 1.2rem);
+  --smallfontsize: clamp(0.8rem, 2vw, 1.1rem);
+
+  --backgroundcolour: #141414;
+  
+  --primarycolour: #AE7AFF;
+  --primaryactivecolour: #722EDF;
+  
+  --secondarycolour: #297857;
+  --secondaryactivecolour: #093c274a;
+  
+  --tertiarycolour: #F0618E;
+  
+  --textcolour: #252525;
+  --secondarytextcolour: #cbcbc7;
+}
 
 }

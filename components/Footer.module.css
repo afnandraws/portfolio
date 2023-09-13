@@ -8,7 +8,7 @@
     justify-content:center;
     align-items: center;
 
-    background: linear-gradient(to bottom, rgba(0,0,0,0), #F2F0E3);
+    background: linear-gradient(to bottom, rgba(0,0,0,0), var(--backgroundcolour));
     transition: 0.3s;
 
 
@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: space-between;
     
-    border: 2px black solid;
+    border: 2px var(--secondarytextcolour) solid;
     border-radius: 5px;
     
     min-width: max-content;
@@ -50,7 +50,7 @@
     font-family: "ibm-plex-mono", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #F2F0E3;
+    color: var(--textcolour);
     font-size: var(--smallfontsize);
 
 }
@@ -99,7 +99,7 @@
     }
     
     .footer div.open {
-        border: 2px black solid;
+        border: 2px var(--secondarytextcolour) solid;
         border-radius: 5px;
         padding: 1rem;
         padding-top: 0;
@@ -155,7 +155,7 @@
     }
 
     .footer .toggle {
-        border: 2px black solid;
+        border: 2px var(--secondarytextcolour) solid;
         border-radius: 5px;
     }
 
