@@ -10,8 +10,8 @@ export const projects = [
 			"Node",
 		],
 		description: `Users are presented with random facts fetched from the database, which they can save upon logging in. The login functionality allows users to securely store and access their favorite facts. MongoDB stores user data and a repository of facts. React/Next.js handles the frontend, delivering a seamless user experience with interactive fact display and retrieval. This engaging app offers users an enjoyable way to discover intriguing facts.`,
-		websitelink: "https://www.google.com",
-		sourcecode: "https://www.google.com",
+		websitelink: "https://interesting-pxp711rd9-afnandraws.vercel.app",
+		sourcecode: "https://github.com/afnandraws/interesting",
 	},
 	{
 		name: "Todo List App",
@@ -32,11 +32,19 @@ export const projects = [
 		sourcecode: "",
 	},
 	{
+		name: "Datepicker Component",
+		tags: ["HTML", "CSS", "JS", "React"],
+		description:
+			"This was a datepicker component I made because I felt like I could improve the styling and maintain the functionality of the default HTML datepicker component.",
+		websitelink: "",
+		sourcecode: "https://github.com/afnandraws/calendar",
+	},
+	{
 		name: "This Website!",
 		tags: ["React", "Next", "Typescript"],
 		description:
 			"This is a static site, coded in React, hosted on DigitalOcean. With this I wanted to focus on front end design and ensuring that the website had a responsive design.",
 		websitelink: "",
-		sourcecode: "",
+		sourcecode: "https://github.com/afnandraws/portfolio",
 	},
 ];

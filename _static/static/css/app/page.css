@@ -1,0 +1,447 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/Hero.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.Hero_hero__bqvNd {
+    height: max-content;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+
+}
+
+.Hero_intro__6WcBS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero_intro__6WcBS > h1 {
+    font-size: var(--largefontsize);
+    margin: 0;
+}
+
+.Hero_links__AYA0C {
+    margin: 1rem;
+}
+
+.Hero_links__AYA0C a {
+    all: unset;
+    margin: 1rem;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.Hero_links__AYA0C a:hover {
+    color: #AE7AFF;
+}
+
+.Hero_intro__6WcBS p {
+    font-size: var(--mediumfontsize);
+    width: 900px;
+    max-width: calc(100dvw - 2rem);
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+
+    margin: 0;
+}
+
+
+/* MOBILE STYLES */
+
+@media (max-width: 768px) {
+    .Hero_hero__bqvNd {
+        padding-top: 2rem;
+        max-width: calc(100dvw - 2rem);
+    }
+
+    .Hero_intro__6WcBS {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .Hero_intro__6WcBS > h1 {
+        margin: 0;
+    }
+    
+    .Hero_intro__6WcBS p {
+        width: 400px;
+        font-family: "ibm-plex-mono", sans-serif;
+        font-weight: 400;
+    }
+
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/Projects.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Projects_parent__o9yXn {
+    box-sizing: border-box;
+    margin: auto;
+
+    width: 1200px;
+    max-width: calc(100dvw - 2rem);
+
+}
+
+.Projects_topbar__3_gjn {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--mediumfontsize);
+}
+
+.Projects_board__pcOgX {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    gap: 2rem;
+    height: max-content;
+
+    
+}
+
+.Projects_board__pcOgX h1 {
+    margin: 0;
+
+}
+
+.Projects_board__pcOgX a {
+    all: unset;
+}
+
+.Projects_project__srcGa {
+    display: flex;
+    flex-direction: column;
+
+    width: 2fr;
+    
+    padding: 2rem;
+
+    border-radius: 5px;
+    border: 2px solid var(--secondarytextcolour);
+
+    text-align: left;
+
+    transition: 0.4s;
+}
+
+.Projects_project__srcGa a {
+    text-decoration: underline;
+    color: #F0618E;
+}
+
+.Projects_project__srcGa a:hover {
+    text-decoration: underline;
+    color: #AE7AFF;
+}
+
+
+.Projects_project__srcGa:hover {
+    box-shadow: 0 0 15px #AE7AFF;
+    border-color: #AE7AFF;
+
+}
+  
+
+.Projects_project__srcGa h1 {
+    font-size: var(--medium2fontsize);
+
+    margin-top: 20px;
+    color: var(--secondarytextcolour);
+    
+}
+
+.Projects_project__srcGa p {
+    
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 300;
+    font-size: var(--smallfontsize);
+
+    width: 100%;
+    word-spacing: 1px; /* Increase space between words */
+}
+
+.Projects_project__srcGa > :last-child {
+    margin-top: auto;
+}
+
+.Projects_tags__pE1IM {
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+    width: fit-content; 
+    gap: 0.5rem;
+}
+
+.Projects_tags__pE1IM div {
+    border: 2px black solid;
+    border-radius: 5px;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: var(--smallfontsize);
+
+
+    background-color:  var(--secondarycolour);
+
+    margin: 0;
+
+    padding: 6px 10px;
+    width: max-content;
+}
+
+.Projects_tags__pE1IM div:hover {
+    background-color: var(--secondaryactivecolour);
+    cursor:default;
+
+}
+
+/* MOBILE STYLES */
+
+@media (max-width: 768px) {
+    .Projects_parent__o9yXn {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Projects_board__pcOgX {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 1rem;
+    }
+
+    .Projects_project__srcGa {
+        height: max-content;
+        padding: 20px;
+    }
+    
+    .Projects_project__srcGa h1 {
+        margin-top: 0;
+    }
+    
+    .Projects_project__srcGa > :last-child {
+        margin-top: 0;
+    }
+
+    .Projects_tags__pE1IM {
+        margin-bottom: 20px;
+    }
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/Experience.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.Experience_experience__aDO1z {
+    display: block;
+
+    box-sizing: border-box;
+    margin: auto;
+
+    width: 1000px;
+    max-width: calc(100dvw - 2rem);
+
+
+    
+    align-items: center;
+    flex-direction: column;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.Experience_content__pmlM4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+
+    gap: 1rem;
+}
+
+.Experience_topbar__Pg3Mg {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin: 1rem;
+    
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--mediumfontsize);
+}
+
+
+.Experience_list__D3rHA {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:normal;
+    width: max-content;
+    width: 100%;
+    
+
+    text-align: center;
+    font-size: var(--smallfontsize);
+
+    border-right: 2px black solid;
+    border: 2px var(--secondarytextcolour) solid;
+    border-radius: 5px;
+}
+
+.Experience_list__D3rHA div {
+    padding: 15px;
+    border-right: 2px var(--secondarytextcolour) solid; 
+
+    width: 100%;
+}
+
+.Experience_list__D3rHA :hover {
+    background-color: var(--secondaryactivecolour);
+    cursor: pointer;
+}
+
+.Experience_selected___g7no {
+    background-color: var(--secondarycolour);
+    border-radius: 3px 0px 0px 3px;
+}
+
+
+.Experience_list__D3rHA :last-child {
+    border-right: none;
+    border-radius:  0px 3px 3px 0px;
+}
+
+.Experience_description___o3ae {
+    border: 2px var(--secondarytextcolour) solid;
+    border-radius: 5px;
+
+    padding: 30px;
+    max-width: 100%;
+
+    font-family: "mencken-std-head", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--secondarytextcolour);
+}
+
+.Experience_description___o3ae span,
+.Experience_description___o3ae p {
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Experience_description___o3ae div :nth-child(2) {
+    text-align: right;
+}
+
+.Experience_description___o3ae div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Experience_description___o3ae h2,
+.Experience_description___o3ae h3 {
+    padding-top: 10px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+
+    .Experience_experience__aDO1z {
+        max-width: calc(100dvw - 2rem);
+    }
+
+    .Experience_content__pmlM4 {
+        flex-direction: column;
+    }
+
+    .Experience_description___o3ae {
+
+    }
+
+    .Experience_list__D3rHA {
+        display: flex;
+        align-self: center;
+    }
+
+    .Experience_list__D3rHA div { 
+        padding: 10px;
+        border-bottom: none;
+        border-right: 2px black solid; 
+    }
+
+
+    .Experience_list__D3rHA :last-child {
+        border-right: none; 
+    }
+    
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/About.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.About_about__fFfvC {
+    display: block;
+
+    box-sizing: border-box;
+    margin: auto;
+
+    width: 1000px;
+    max-width: calc(100dvw - 2rem);
+}
+
+.About_topbar__Jwheh {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin: 1rem;
+    
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--mediumfontsize);
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.page_main__GlU4n {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page_body__pK_rb {
+  min-height: 90dvh;
+  height: max-content;
+  margin-bottom: 30px;
+  -webkit-user-select:text;
+     -moz-user-select:text;
+          user-select:text;
+
+}
+

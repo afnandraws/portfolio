@@ -24,18 +24,40 @@ const Projects = () => {
 						<div key={Math.random()} className={styles.project}>
 							<div className={styles.tags}>
 								{project.tags.map((tag: string) => {
-									return <h3 key={Math.random()}>{tag}</h3>;
+									return <div key={Math.random()}>{tag}</div>;
 								})}
 							</div>
 							<h1>{project.name}</h1>
 							<p>{project.description}</p>
 							<div>
 								<p>
-									Here's the live{" "}
-									<Link href={project.websitelink}>website</Link>
-									! <br />
-									Or would you like to see the{" "}
-									<Link href={project.sourcecode}>source code</Link>?
+									{project.websitelink && (
+										<span>
+											Here's the live{" "}
+											<Link target="__blank" href={project.websitelink}>
+												website
+											</Link>
+											! <br />
+										</span>
+									)}
+									{project.sourcecode &&
+										(project.websitelink ? (
+											<span>
+												Or would you like to see the{" "}
+												<Link target="__blank" href={project.sourcecode}>
+													source code
+												</Link>
+												?
+											</span>
+										) : (
+											<span>
+												Here's the{" "}
+												<Link target="__blank" href={project.sourcecode}>
+													source code
+												</Link>
+												!
+											</span>
+										))}
 								</p>
 							</div>
 						</div>
