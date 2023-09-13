@@ -21,8 +21,8 @@ export const projects = [
     as add subtasks and dates to the subtasks. In order to store this
     information without including any kind of backend, I utilised
     IndexedDB, to store relational data in local storage.`,
-		websitelink: "",
-		sourcecode: "",
+		websitelink: "https://hammerhead-app-gfroz.ondigitalocean.app",
+		sourcecode: "https://github.com/afnandraws/todolist/",
 	},
 	{
 		name: "Chat App",
