@@ -8,6 +8,12 @@ import Head from "next/head";
 export const metadata: Metadata = {
 	title: `Afnan's Portfolio`,
 	description: "My portfolio for web development",
+	icons: {
+		icon: {
+			url: "/favicon.png",
+			type: "image/png",
+		},
+	},
 };
 
 export default function RootLayout({

@@ -1,0 +1,321 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/globals.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://use.typekit.net/gmg7rgy.css");
+
+html,
+body {
+  font-family: "mencken-std-head", sans-serif;
+  font-weight: 300;
+  font-style: normal;  margin: 0;
+  color: var(--secondarytextcolour);
+  
+
+  background: var(--backgroundcolour);
+
+  max-width: 100%;
+}
+
+
+:root {
+  --largefontsize: clamp(2rem, 5vw, 3rem);
+  --medium2fontsize: clamp(1.5rem, 2vw, 2.5rem);
+  --mediumfontsize: clamp(1rem, 2vw, 1.2rem);
+  --smallfontsize: clamp(0.8rem, 2vw, 1.1rem);
+
+  --backgroundcolour: #F2F0E3;
+  
+  --primarycolour: #AE7AFF;
+  --primaryactivecolour: #722EDF;
+  
+  --secondarycolour: #6efcc14a;
+  --secondaryactivecolour: #6efcc1;
+  
+  --tertiarycolour: #F0618E;
+  
+  --textcolour: #F2F0E3;
+  --secondarytextcolour: #252525;
+
+}
+
+@media (prefers-color-scheme: dark) {
+:root {
+  --largefontsize: clamp(2rem, 5vw, 3rem);
+  --medium2fontsize: clamp(1.5rem, 2vw, 2.5rem);
+  --mediumfontsize: clamp(1rem, 2vw, 1.2rem);
+  --smallfontsize: clamp(0.8rem, 2vw, 1.1rem);
+
+  --backgroundcolour: #141414;
+  
+  --primarycolour: #AE7AFF;
+  --primaryactivecolour: #722EDF;
+  
+  --secondarycolour: #297857;
+  --secondaryactivecolour: #093c274a;
+  
+  --tertiarycolour: #F0618E;
+  
+  --textcolour: #252525;
+  --secondarytextcolour: #cbcbc7;
+}
+
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/Header.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+
+.Header_header__KwdYD {
+    position: -webkit-sticky;
+    position: sticky;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    top: 0; 
+    height: 50px;
+
+    padding: 2rem;
+    background: linear-gradient(to bottom, var(--backgroundcolour), rgba(0,0,0,0));
+
+}
+
+.Header_buttongroup__RQ9_w {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px var(--secondarytextcolour) solid;
+    border-radius: 5px;
+
+    background: #AE7AFF;
+    width: max-content;
+
+}
+
+.Header_buttongroup__RQ9_w button {
+   
+    all: unset;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 500;
+    color: var(--textcolour);
+    font-size: var(--smallfontsize);
+
+    height: 100%;
+    padding: 18px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: 0.3s;
+}
+
+.Header_buttongroup__RQ9_w :first-child {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.Header_buttongroup__RQ9_w :last-child {
+    border-radius: 0px 4px 4px 0px;
+}
+
+
+.Header_buttongroup__RQ9_w button:hover {
+    background-color: #722edf;
+}
+
+
+
+
+
+/* MOBILE STYLES */
+
+@media (max-width: 768px) {
+
+    .Header_header__KwdYD {
+        
+        width: 100dvw; 
+        box-sizing: border-box;
+        position: -webkit-sticky;
+        position: sticky; 
+        top: 0;
+        right: 0;
+        justify-content: flex-end;
+    }
+    
+    .Header_buttongroup__RQ9_w {
+        position: relative;
+        top: 20px;
+    }
+  }
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./components/Footer.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__pQtti {
+    max-width: 100vw; 
+
+    position: -webkit-sticky; 
+
+    position: sticky;
+    bottom: 0; 
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    background: linear-gradient(to bottom, rgba(0,0,0,0), var(--backgroundcolour));
+    transition: 0.3s;
+
+
+}
+
+.Footer_toggle__6E_bj {
+    display: none;
+}
+
+.Footer_footer__pQtti div {
+    background-color: #AE7AFF;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border: 2px var(--secondarytextcolour) solid;
+    border-radius: 5px;
+    
+    min-width: max-content;
+    height: max-content;
+
+    position: relative;
+    bottom: 20px;
+}
+
+.Footer_footer__pQtti div :first-child {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.Footer_footer__pQtti div :last-child {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.Footer_unselected__3QX24 {
+    all: unset;
+    padding: 1rem;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--textcolour);
+    font-size: var(--smallfontsize);
+
+}
+
+.Footer_unselected__3QX24:hover {
+    background-color: #722edf;
+    transition: 0.4s;
+
+}
+
+
+.Footer_selected__NnoXX {
+    all: unset;
+    padding: 1rem;
+
+    font-family: "ibm-plex-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--smallfontsize);
+ 
+    color: #F2F0E3;
+    background-color: #722edf;
+}
+
+
+/* MOBILE STYLING */
+
+@media (max-width: 768px) {
+
+    .Footer_footer__pQtti {
+        width: 100dvw;
+        box-sizing: border-box;
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 0; 
+        left: 0;
+
+        justify-content: center;
+        align-items:flex-start;
+        flex-direction: column-reverse;
+    }
+    
+    .Footer_footer__pQtti div {
+        border: none;
+        flex-direction: column;
+        
+    }
+    
+    .Footer_footer__pQtti div.Footer_open__zA_UJ {
+        border: 2px var(--secondarytextcolour) solid;
+        border-radius: 5px;
+        padding: 1rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        gap: 0;
+
+        position: absolute;
+        bottom: 6rem;
+        left: 2rem;
+
+    }
+
+    .Footer_footer__pQtti div button {
+        display: none;
+    }
+
+    .Footer_footer__pQtti div.Footer_open__zA_UJ button {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        font-size: var(--smallfontsize);
+
+
+    }
+
+    .Footer_footer__pQtti div.Footer_open__zA_UJ :first-child {
+        border-radius: 4px 4px 0px 0px  ;
+    }
+    
+    .Footer_footer__pQtti div.Footer_open__zA_UJ :last-child {
+        border-radius: 0px 0px 4px 4px;
+    }
+  
+    .Footer_footer__pQtti .Footer_toggle__6E_bj {
+        box-sizing: border-box;
+        left: 0;
+        all: unset;
+        
+        text-align: center;
+
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        padding: 18px;
+  
+        font-family: "ibm-plex-mono", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: var(--smallfontsize);
+        
+        background-color: #AE7AFF;
+        color: #F2F0E3;
+
+    }
+
+    .Footer_footer__pQtti .Footer_toggle__6E_bj {
+        border: 2px var(--secondarytextcolour) solid;
+        border-radius: 5px;
+    }
+
+    .Footer_toggle__6E_bj:hover {
+        background-color: #722edf;
+    }
+  }
+
