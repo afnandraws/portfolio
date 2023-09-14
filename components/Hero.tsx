@@ -20,9 +20,9 @@ const Hero = () => {
 					</a>
 				</div>
 				<p>
-					Afnan is a London-based full stack developer with experience in Web
-					design, backend frameworks and UI design. I enjoy playing games,
-					watching crime documentaries and drawing
+					Hi, I'm Afnan, a passionate web developer with a background in Digital
+					Media. Big fan of creating things, whether that be with code, a
+					paintbrush or with a guitar.
 				</p>
 			</div>
 		</div>

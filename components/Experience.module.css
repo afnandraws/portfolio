@@ -84,12 +84,14 @@
     border: 2px var(--secondarytextcolour) solid;
     border-radius: 5px;
 
-    padding: 30px;
+    padding: 1rem;
     max-width: 100%;
 
     font-family: "mencken-std-head", sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size: var(--smallfontsize);
+
     color: var(--secondarytextcolour);
 }
 
@@ -110,6 +112,10 @@
     width: 100%;
 }
 
+.description h2 {
+    font-size: var(--medium2fontsize);
+}
+
 .description h2,
 .description h3 {
     padding-top: 10px;
@@ -124,10 +130,6 @@
 
     .content {
         flex-direction: column;
-    }
-
-    .description {
-
     }
 
     .list {
