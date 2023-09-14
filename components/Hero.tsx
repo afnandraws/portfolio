@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import image from "../public/image.svg";
 import styles from "./Hero.module.css";
