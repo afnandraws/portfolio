@@ -28,8 +28,8 @@ export const projects = [
 		name: "Chat App",
 		tags: ["React", "Websockets", "Node", "Next", "IndexedDB"],
 		description: `This is an application I created to allow friends to talk via a chat. Multiple people are able to join rooms together and after a disconnect, you are able to rejoin and it populates the chat with previous messages.`,
-		websitelink: "",
-		sourcecode: "",
+		websitelink: "https://chat-app-coral-omega.vercel.app",
+		sourcecode: "https://github.com/afnandraws/chat-app",
 	},
 	{
 		name: "Datepicker Component",
