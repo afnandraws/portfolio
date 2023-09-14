@@ -23,7 +23,6 @@
 }
 
 .content {
-    padding: 1rem;
     text-align: left;
 
 }
@@ -31,7 +30,7 @@
 .content div {
     border: 2px var(--secondarytextcolour) solid;
     border-radius: 5px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 2rem;
 }
 
