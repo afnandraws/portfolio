@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "./Header.module.css";
+import Link from "next/link";
 
 const Header = () => {
 	const [darkMode, setdarkMode] = useState(false);
@@ -12,7 +13,9 @@ const Header = () => {
 	return (
 		<header className={styles.header}>
 			<div className={styles.buttongroup}>
-				<button>Resume</button>
+				<Link download="Afnan's Resume" href="/resume.pdf">
+					<button>Resume</button>
+				</Link>
 			</div>
 		</header>
 	);
