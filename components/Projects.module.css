@@ -119,12 +119,6 @@
     width: max-content;
 }
 
-.tags div:hover {
-    background-color: var(--secondaryactivecolour);
-    cursor:default;
-
-}
-
 /* MOBILE STYLES */
 
 @media (max-width: 768px) {
