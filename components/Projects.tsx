@@ -34,9 +34,7 @@ const Projects = () => {
 									{project.websitelink && (
 										<span>
 											Here's the live{" "}
-											<Link target="__blank" href={project.websitelink}>
-												website
-											</Link>
+											<Link href={project.websitelink}>website</Link>
 											! <br />
 										</span>
 									)}
@@ -44,10 +42,7 @@ const Projects = () => {
 										(project.websitelink ? (
 											<span>
 												Or would you like to see the{" "}
-												<Link target="__blank" href={project.sourcecode}>
-													source code
-												</Link>
-												?
+												<Link href={project.sourcecode}>source code</Link>?
 											</span>
 										) : (
 											<span>
