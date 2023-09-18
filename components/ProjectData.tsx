@@ -26,7 +26,7 @@ export const projects = [
 	},
 	{
 		name: "Chat App",
-		tags: ["React", "Websockets", "Node", "Next", "IndexedDB"],
+		tags: ["React", "Socket.IO", "Node", "Next", "IndexedDB"],
 		description: `This is an application I created to allow friends to talk via a chat. Multiple people are able to join rooms together. This app was specifically designed after witnessing a case study of a client who required a webchat application but didn't wish to store chat information in a database. I am currently experimenting with storing information in IndexedDB, purging information after a certain amount of time and populating the previous chat messages for all the users in the room.`,
 		websitelink: "https://chat-app-coral-omega.vercel.app",
 		sourcecode: "https://github.com/afnandraws/chat-app",
