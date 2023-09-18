@@ -27,17 +27,9 @@ export const projects = [
 	{
 		name: "Chat App",
 		tags: ["React", "Websockets", "Node", "Next", "IndexedDB"],
-		description: `This is an application I created to allow friends to talk via a chat. Multiple people are able to join rooms together and after a disconnect, you are able to rejoin and it populates the chat with previous messages.`,
+		description: `This is an application I created to allow friends to talk via a chat. Multiple people are able to join rooms together. This app was specifically designed after witnessing a case study of a client who required a webchat application but didn't wish to store chat information in a database. I am currently experimenting with storing information in IndexedDB, purging information after a certain amount of time and populating the previous chat messages for all the users in the room.`,
 		websitelink: "https://chat-app-coral-omega.vercel.app",
 		sourcecode: "https://github.com/afnandraws/chat-app",
-	},
-	{
-		name: "Datepicker Component",
-		tags: ["HTML", "CSS", "JS", "React"],
-		description:
-			"This was a datepicker component I made because I felt like I could improve the styling and maintain the functionality of the default HTML datepicker component.",
-		websitelink: "",
-		sourcecode: "https://github.com/afnandraws/calendar",
 	},
 	{
 		name: "This Website!",
@@ -46,5 +38,13 @@ export const projects = [
 			"This is a static site, coded in React, hosted on DigitalOcean. With this I wanted to focus on front end design and ensuring that the website had a responsive design.",
 		websitelink: "",
 		sourcecode: "https://github.com/afnandraws/portfolio",
+	},
+	{
+		name: "Datepicker Component",
+		tags: ["HTML", "CSS", "JS", "React"],
+		description:
+			"This was a datepicker component I made because I felt like I could improve the styling and maintain the functionality of the default HTML datepicker component.",
+		websitelink: "",
+		sourcecode: "https://github.com/afnandraws/calendar",
 	},
 ];
