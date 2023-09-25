@@ -38,11 +38,10 @@
     margin: 0;
     margin-bottom: 1rem;
 
-    font-family: "ibm-plex-mono", sans-serif;
+    font-family: "mencken-std-head", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: var(--medium2fontsize);
-    color: var(--primarycolour);
 
 }
 

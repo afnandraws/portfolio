@@ -162,6 +162,7 @@
     margin-top: 20px;
     color: var(--secondarytextcolour);
     
+    
 }
 
 .Projects_project__srcGa p {
@@ -203,12 +204,6 @@
 
     padding: 6px 10px;
     width: max-content;
-}
-
-.Projects_tags__pE1IM div:hover {
-    background-color: var(--secondaryactivecolour);
-    cursor:default;
-
 }
 
 /* MOBILE STYLES */
@@ -270,6 +265,7 @@
 
 
 .Experience_content__pmlM4 {
+    
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
@@ -302,6 +298,7 @@
 
     text-align: center;
     font-size: var(--smallfontsize);
+    
 
     border-right: 2px black solid;
     border: 2px var(--secondarytextcolour) solid;
@@ -344,6 +341,7 @@
     font-size: var(--smallfontsize);
 
     color: var(--secondarytextcolour);
+    
 }
 
 .Experience_description___o3ae span,
@@ -444,11 +442,10 @@
     margin: 0;
     margin-bottom: 1rem;
 
-    font-family: "ibm-plex-mono", sans-serif;
+    font-family: "mencken-std-head", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: var(--medium2fontsize);
-    color: var(--primarycolour);
 
 }
 
