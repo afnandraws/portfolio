@@ -16,6 +16,9 @@ const Header = () => {
 				<Link download="Afnan's Resume" href="/resume.pdf">
 					<button>Resume</button>
 				</Link>
+				<Link download="Design Portfolio" href="/design.pdf">
+					<button>Design Portfolio</button>
+				</Link>
 			</div>
 		</header>
 	);
