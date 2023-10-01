@@ -10,7 +10,7 @@ export const projects = [
 			"Node",
 		],
 		description: `Users are presented with random facts fetched from the database, which they can save upon logging in. The login functionality allows users to securely store and access their favorite facts. MongoDB stores user data and a repository of facts. React/Next.js handles the frontend, delivering a seamless user experience with interactive fact display and retrieval. This engaging app offers users an enjoyable way to discover intriguing facts.`,
-		websitelink: "https://interesting-nine.vercel.app",
+		websitelink: "https://interesting-lv2nxhllt-afnandraws.vercel.app",
 		sourcecode: "https://github.com/afnandraws/interesting",
 	},
 	{
