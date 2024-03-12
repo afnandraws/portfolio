@@ -13,7 +13,7 @@ const Header = () => {
 	return (
 		<header className={styles.header}>
 			<div className={styles.buttongroup}>
-				<Link download="Afnan's Resume" href="/resume.pdf">
+				<Link download="Afnan's Resume" href="/Afnan's Resume.docx">
 					<button>Resume</button>
 				</Link>
 				<Link download="Design Portfolio" href="/design.pdf">
